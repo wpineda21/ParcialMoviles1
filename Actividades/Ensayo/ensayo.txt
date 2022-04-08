@@ -1,0 +1,58 @@
+No hay balas de plata: Lo esencial y lo accidental en la Ingeniería del Software
+El articulo:  No hay balas de plata trata esencialmente de lo que significa el desarrollo de software y como muchas veces se trata de buscar una respuesta general para los distintos problemas que surgen al momento de llevar a cabo el desarrollo de un proyecto, cosa que por el momento y en un futuro no muy cercano no existe.
+
+Este articulo habla acerca de qué No hay un escape fácil, Lo más difícil de desarrollar software   es arrancar con la idea, diseñar eficazmente la idea, ¿Por qué? Porque ¿Qué tipo de tecnología use? ¿Qué Tipo de gestor de base de datos use? ¿Qué paradigma de programación use? resulta trivial si el resultado final de la aplicación es ineficiente conceptualmente y de forma práctica.
+
+¿Cuál es el Problema principal del desarrollo de software?
+
+En el desarrollo del software lo complejo es lo esencial, en el estudio de la física hay situaciones en las que se desarrolla un ambiente “Perfecto” para el desarrollo de un cierto fenómeno, por ejemplo cuando en la cinemática se estudian los objetos en caída libre, al principio para entenderlo se desprecia todo aquello que pueda complicar su estudio, como es el caso de la resistencia del aire porque esto solo dificultarían en un principio entender el fenómeno   porque al final  lo que se busca estudiar en realidad es el por qué y como sucede el fenómeno. Sin Embargo, esto no funciona cuando se quieren estudiar cosas que van de lo más general a lo más específico, como por ejemplo los agujeros negros, ahí la complejidad es lo esencial. Ahora bien, cuando tu empiezas a trabajar en el desarrollo de software en y por ejemplo deseas mejorar o facilitar algún proceso de una empresa vas de lo general a lo especifico, no hay atajos, no hay balas de plata.
+
+¿Podría haber alguna solución definitiva para la complejidad del desarrollo de software?
+
+Hay Personas como menciona el artículo que creen que una solución al desarrollo de software es la “automatización” de estos procesos, debido a los grandes avances de la Inteligencia artificial sin embargo esto no es posible no es una soluciona a gran escala, sirve para elaborar algunos procesos y subprocesos como es el caso de las calculadoras inteligentes, pero no es una solución definitiva ni en la actualidad ni en el futuro.
+
+¿Crear un paradigma de programación general para el desarrollo de software podría ser una solución general para el desarrollo de software? Frederick P. Brooks el autor de este articulo habla acerca de cómo la mezcla de las personas que desarrollan software en el lenguaje de programación  ADA y el paradigma de programación  orientada a objetos podría ser una buena herramienta para “generalizar”  el desarrollo de software, sin embargo esto tiene muchos pros pero también muchos contras ya que nos limitaríamos a usa un estilo , y con tantas herramientas y entornos nuevos que hay estos “desarrolladores” terminarían siendo desfasados como ha pasado con el lenguaje de cobol. 
+
+¿Cuál es una probable solución para la complejidad del desarrollo de software?
+
+Frederick P. Brooks en su artículo habla acerca de una posible solución:
+
+“Mi primera propuesta es que las organizaciones de software deben determinar y proclamar que los diseñadores excelentes son tan importantes para su éxito como los gestores excelentes, y que deben esperar ser recompensados y arropados de la misma forma. No sólo en el salario, sino el resto de los requisitos -- tamaño de la oficina, mobiliario, equipamiento, gastos para viajes, personal de apoyo -- deben ser equivalentes”
+
+Frederick menciona que una posible solución es apostar por los desarrolladores de software, mejorar su aprendizaje, mejorar como abarcar los problemas, Mejorar el cómo cada desarrollador maneja las herramientas de desarrollo etc. Apostar por esto es una seguridad para el desarrollo de software en un futuro.
+
+Arquitectura para aplicaciones de software:
+
+Primero Definamos que es una Arquitectura de Software:
+
+La arquitectura en una aplicación de software son los aspectos comunes a las diferentes implementaciones concretas. La arquitectura de software define la estructura y comportamiento de los elementos relevantes, balanceando las necesidades de sus interesados, aplica decisiones de forma racional, definiendo estilos de arquitectura aplicables a múltiples aplicaciones con necesidades similares, está influenciada por su entorno de aplicación, influencia la estructura de los equipos, está presente en cada sistema y tiene un ámbito particular.
+
+Algunos tipos de arquitecturas de desarrollo de software son:
+
+MVC - Model View Controller
+
+Es la arquitectura que todos deben usar para iniciar ya que es fácil de manejar e intuitiva, en estos momentos es muy escasa, pero en su momento fue la solución para separar la interfaz de usuario de la lógica de negocio. La primera cambia más frecuente que la segunda.
+
+MVP - Model View Presenter
+
+Durante este modelo se resuelven varios detalles que se presentan cuando tienes una aplicación con MVC. No toda la responsabilidad debe caer en nuestro MainActivity porque esto podría ocasionar errores de fluidez haciéndola crashear al haber un proceso pesado en el hilo principal de la aplicación. Es decir, no debe ser lineal se utiliza un modelo mvp en casos en los que se necesita una vista especifica.
+
+MVVM - Model View ViewModel
+
+la arquitectura MVVM es diferente a MVP porque en esta arquitectura vamos a necesitar que los datos se estén manejado de una forma más automatizada y mucho más real time. Podemos usar varias versiones MVVM, una de ellas es data binding que es de las más antiguas y existen en muchos otros frameworks como .NET de Microsoft. También tenemos a Live data y RxJava o RxAndroid que no son más que características de la programación reactiva que podemos utilizar para hacer la actualización de datos más real time.      
+
+En conclusión, Desarrollar software es bastante complejo y no hay una forma general o una “plantilla” de cómo desarrollar o elaborar algún proceso o rutina, sin embargo, hay patrones que, si bien no te hacen el trabajo, te facilitan y ayudan a pensar una mejor manera de cómo abordar un problema.
+
+
+
+Bibliografía:
+
+D.L. Parnas, "Designing Software for Ease of Extension and Contraction," IEEE Transactions on Software Engineering, Vol. 5, No. 2, March 1979, pp. 128-38
+
+Arquitectura de Software. (2011). SG Buz. https://sg.com.mx/revista/27/arquitectura-software
+
+Huaman, W. C. (2018, 7 septiembre). Los 10 patrones comunes de arquitectura de software. Medium. https://medium.com/@maniakhitoccori/los-10-patrones-comunes-de-arquitectura-de-software-d8b9047edf0b
+
+Martinez, C. P. (2021, 9 abril). Arquitectura de software y sus beneficios. DevExperto, por Antonio Leiva. https://devexperto.com/arquitectura-del-software/
+
+Platzi: Cursos online profesionales de tecnología. (2009). Arquitecura de Software. https://platzi.com/blog/arquitecturas-de-software-en-android-mvc-mvp-y-mvvm/#:%7E:text=Arquitecturas%20de%20Software%20en%20Android%3A%20MVC%2C%20MVP%20y%20MVVM

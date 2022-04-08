@@ -1,0 +1,13 @@
+Vector Asset en Android.
+
+¿Qué es Vector Asset?
+
+En Android estudio se usa SVG (Scalable Vector Graphics, Scalable Vector Graphics)  que es un estándar abierto lanzado por W3C un lenguaje de descripción de gráficos vectoriales textuales, es Basado en XML Dedicado Diseñado para la webSVG y para su uso en aplicaciones móviles es un lenguaje que usa XML para describir gráficos bidimensionales, por lo que se puede abrir directamente el archivo xml para modificar y editar.
+
+¿Cuándo se implementó esta característica?
+
+A partir de la versión de Android Lollipop (v5.0, API 21) se incorporó la posibilidad de definir drawables de forma vectorial utilizando un formato basado en SVG. También se dispone de una librería de compatibilidad que nos permite usar gráficos vectoriales en versiones anteriores. La gran ventaja de los gráficos vectoriales es que pueden ser reescalados sin perder definición. Solo necesitas un pequeño fichero para definir líneas y curvas, luego podrás representarlo en el tamaño deseado. Resulta mucho más sencillo que diseñar diferentes imágenes en mapa de bits para diferentes densidades.
+
+¿Cómo se implementa?
+
+Primero se define el ancho y alto con que queremos que aparezca el drawable y luego el ancho y alto con el que vamos a trabajar para definirlo. Con la etiqueta <path> definimos su trazado, comenzamos definiendo el color de relleno, color de trazo y grosor de trazo. Finalmente se indica los comandos que permiten dibujar la estrella mostrada a continuación. M0 20 mueve el puntero de dibujo hasta estas coordenadas. L20 20 dibuja una línea hasta estas coordenadas, ... Finalmente, Z cierra el trazado actual.
